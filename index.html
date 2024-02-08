@@ -15,10 +15,28 @@
             <label for="yourname">What is your name?</label>
             <input id="yourname" type="text" placeholder="John Doe"/>
         </div>
+       
+
         <div>
-            <input type="button" value="Submit Button Text"/>
+            <label for="youremail">What is your email?</label>
+            <input id="yourEmail" type="email" name="cc" placeholder="email.domain.com"/>
         </div>
 
+        <label for="subject-select">How May I Help You?</label>
+        <select id="subject-select" name="subject">
+            <option value="">Select an option below</option>
+            <option value="Web_Development_Inquiry">Build a Website</option>
+            <option value="Coding Lesson Inquiry">Teach me how to code</option>
+        </select>
+
+        <div>
+            <label for="yourMessage">Tell me more</label>
+            <textarea id="yourMessage" type="textarea" name="body"></textarea>
+        </div>
+
+        <div>
+            <input type="button" value="Submit"/>
+        </div>
         </form>
 <aside style="float:right;"></aside>
     </main>
